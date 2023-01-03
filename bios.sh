@@ -23,7 +23,7 @@ echo root:password | chpasswd
 
 # base installation
 pacman -S \
-	grub efibootmgr networkmanager dialog wpa_supplicant mtools dosfstools \
+	grub networkmanager dialog wpa_supplicant mtools dosfstools \
 	base-devel linux-headers avahi xdg-utils xdg-user-dirs gvfs gvfs-smb   \
 	nfs-utils inetutils dnsutils bluez bluez-utils alsa-utils pipewire pipewire-alsa \
 	pipewire-pulse pipewire-jack bash-completion openssh rsync reflector acpi \
